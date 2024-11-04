@@ -13,7 +13,7 @@ import torch
 data_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(data_root)
 
-from data.data_process import load_data
+from data_process import load_data
 from args import args
 from train import train
 from train_prior import train_prior
